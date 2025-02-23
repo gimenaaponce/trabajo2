@@ -3,7 +3,9 @@ import http from 'http';
 // Crear un servidor HTTP básico
 const server = http.createServer((req, res) => {
     res.statusCode =200;
-    res.setHeader('Content-Type', 'text/plain');
+// res.setHeader('Content-Type', 'text/plain'); 
+    res.setHeader('Content-Type', 'text/plan;charset=utf-8');
+
     res.end('¡Hola Mundo!');
 })
 

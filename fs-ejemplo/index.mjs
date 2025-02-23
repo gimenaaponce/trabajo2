@@ -13,7 +13,7 @@ import fs from 'fs';
   });
 
   //Renombrar un archivo
-  fs.rename('./data/newfile.txt', '/data/renamedfile.txt', (err) => {
+  fs.rename('./data/newfile.txt', '/data/renamefile.txt', (err) => {
     if (err) throw err;
     console.log('Archivo renombrado');
   });
